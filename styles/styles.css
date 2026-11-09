@@ -2,6 +2,10 @@ main {
     max-width: 840px;
 }
 
+body {
+    background-color: lightseagreen;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;

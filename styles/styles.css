@@ -1,9 +1,28 @@
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav a {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
 main {
     max-width: 840px;
 }
 
-body {
-    background-color: lightseagreen;
+h1 {
+    color: #333;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 aside {
@@ -11,17 +30,13 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
+    background-color: #eee;
     color: #333;
     text-align: center;
 }
 
 aside img {
     width: 200px;
-    height: auto;
-}
-
-main img {
-    width: 150px;
     height: auto;
 }
 

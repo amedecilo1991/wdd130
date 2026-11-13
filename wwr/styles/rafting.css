@@ -1,12 +1,8 @@
 :root {
     --primary-color: #0b4f6c;
-    /* Deep river blue */
     --secondary-color: #01baef;
-    /* Bright cyan water accent */
     --accent1-color: #1f2d3d;
-    /* Dark slate text and overlay color */
     --accent2-color: #f4a261;
-    /* Warm golden accent */
     --heading-font: "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -17,7 +13,6 @@
     box-sizing: border-box;
 }
 
-/* 2. Body styles */
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -30,7 +25,19 @@ footer {
     margin: 0 auto;
 }
 
-/* 4. Heading styling */
+header {
+    background-color: var(--secondary-color);
+    /* Uses --secondary-color */
+    padding: 10px;
+}
+
+footer {
+    background-color: var(--accent2-color);
+    /* Uses --accent2-color */
+    padding: 10px;
+    text-align: center;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
